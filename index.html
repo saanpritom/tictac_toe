@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tic Tac Toe</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="jumbotron">
+          <h1>Play The Game</h1>
+          <a href="index.html" type="button" class="btn btn-primary">Restart</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8 col-sm-8">
+          <div class="table">
+            <table class="table table-responsive">
+              <tbody>
+                <tr class="upper-three">
+                  <td class="upper-left">
+                    <p id="upper-left-text">L</p>
+                  </td>
+                  <td class="upper-middle">
+                    <p id="upper-middle-text">L</p>
+                  </td>
+                  <td class="upper-right">
+                    <p id="upper-right-text">L</p>
+                  </td>
+                </tr>
+                <tr class="middle-three">
+                  <td class="middle-left">
+                    <p id="middle-left-text">L</p>
+                  </td>
+                  <td class="middle-middle">
+                    <p id="middle-middle-text">L</p>
+                  </td>
+                  <td class="middle-right">
+                    <p id="middle-right-text">L</p>
+                  </td>
+                </tr>
+                <tr class="lower-three">
+                  <td class="lower-left">
+                    <p id="lower-left-text">L</p>
+                  </td>
+                  <td class="lower-middle">
+                    <p id="lower-middle-text">L</p>
+                  </td>
+                  <td class="lower-right">
+                    <p id="lower-right-text">L</p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <h3 class="result-headline">Result:</h3>
+          <h6 id="result"></h6>
+        </div>
+      </div>
+    </div>
+    <script src="logic.js" charset="utf-8"></script>
+  </body>
+</html>
